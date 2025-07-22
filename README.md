@@ -35,12 +35,12 @@ Class containing model structure
 3- model.py :
 <br>
 prepare training and testing data, initialize and train model, evaluate and save final model parameters
-<br>
+<br><br>
+
 ```
 python model.py
 ```
-<b><br><br>
-
+<br><br>
 
 ## Installations
 In order to clone the project files and run them on your machine, install the following libraries
