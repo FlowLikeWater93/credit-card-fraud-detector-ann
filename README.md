@@ -13,7 +13,7 @@ Success metric : Achieve 90%+ F1 score
 
 ### Evaluation metrics:
 Recall : true positives / (true positives + false negatives)
-<b>
+<br>
 Precision : true positives / (true positives + false positives)
 <br>
 F1 : 2 * (precision*recall) / (precision+recall)
@@ -27,7 +27,7 @@ Perform EDA on the dataset
 ```
 python main.py
 ```
-<br><br>
+<br>
 2- fraudDetector.py :
 <br>
 Class containing model structure
@@ -39,7 +39,7 @@ prepare training and testing data, initialize and train model, evaluate and save
 ```
 python model.py
 ```
-<b><br><br>
+<b><br>
 
 
 ## Installations
