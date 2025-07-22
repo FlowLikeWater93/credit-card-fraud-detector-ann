@@ -39,7 +39,7 @@ prepare training and testing data, initialize and train model, evaluate and save
 ```
 python model.py
 ```
-<b><br>
+<b><br><br>
 
 
 ## Installations
