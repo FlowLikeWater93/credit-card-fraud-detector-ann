@@ -1,6 +1,6 @@
 # Kaggle credit card fraud detector
 <br>
-Credit card fraud has become more common nowadays. Building machine learning models that learn from historical data and accurately detect new fraud instances is prime example of how ML can be applied in the real world and solve business problems. 
+Credit card fraud has become more common nowadays. Building machine learning models that learn from historical data and accurately detect new fraud instances is a prime example of how ML can be applied in the real world and solve business problems.
 <br><br>
 Read more about the dataset and Download it <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data" target="blank">here</a>. Before running the project source code, download the dataset, rename it to 'creditcard.csv' and place it in the project directory. The dataset was not included in this repository due to its size.
 <br><br>
@@ -17,30 +17,29 @@ Recall : true positives / (true positives + false negatives)
 Precision : true positives / (true positives + false positives)
 <br>
 F1 : 2 * (precision*recall) / (precision+recall)
-<b><br>
+<b><br><br>
 
-## Running the project files
+## Running project files
 1- main.py :
-<br>Perform EDA on the dataset
-<br><br>
-Navigate to the root directory
-<br><br>
+<br>
+Perform EDA on the dataset
+<br>
 ```
 python main.py
 ```
-<br>
+<br><br>
 2- fraudDetector.py :
-<br>Class containing model structure
-<br><br>
-import and Initialze
-<br><br>
 <br>
-3- model.py :
-<br>prepare training and testing data, initialize and train model, evaluate and save final model parameters
+Class containing model structure
 <br><br>
+3- model.py :
+<br>
+prepare training and testing data, initialize and train model, evaluate and save final model parameters
+<br>
 ```
 python model.py
 ```
+<b><br><br>
 
 
 ## Installations
@@ -97,8 +96,8 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 <br>
 
 **6- imblearn**
-<br>
   To install
+  <br>
 <br>
 ```
 # conda
